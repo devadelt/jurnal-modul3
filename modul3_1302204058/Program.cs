@@ -9,6 +9,9 @@ class Program
         Console.WriteLine("==== GET ALL KODE BUAH ====");
         table_Kodebuah.getAllkodebuah();
         /////////////////////////////////////
+        Console.WriteLine("========= PosisiKarakter =========");
+        PosisiKarakterGame karakter = new PosisiKarakterGame();
+        karakter.posisi();
     }
 
 }
